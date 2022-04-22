@@ -8,5 +8,9 @@ export function convert(color: TtfHex): TtfCmyk {
     return convert.hex.cmyk(color.hex) as TtfCmyk;
 }
 
+export function convert(color: TtfCmyk) {
+    return colorConverter.hex.cmyk(color.magenta, color.yellow, color.cyan, color.key)
+   }
+
     
    
