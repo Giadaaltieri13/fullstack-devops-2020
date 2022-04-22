@@ -1,12 +1,7 @@
 #!/usr/bin/env bash
 
-<<<<<<< Updated upstream
-readonly USER_NAME="Gianni Bombelli (bombo82)"
-readonly USER_EMAIL="bombo82@giannibombelli.it"
-=======
 readonly USER_NAME="Giada Altieri (Giadaaltieri13)"
 readonly USER_EMAIL="giada.altieri01@gmail.com"
->>>>>>> Stashed changes
 
 install_and_configure_git() {
     echo "### Install and configure git"
